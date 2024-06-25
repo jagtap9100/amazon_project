@@ -26,7 +26,7 @@ export default function Navbar() {
 
       <div className='col-md-12'>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">AmazonAmazon</a>
+          <a class="navbar-brand" href="#">Amazon</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -41,12 +41,7 @@ export default function Navbar() {
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
+
             </ul>
           </div>
         </nav>
