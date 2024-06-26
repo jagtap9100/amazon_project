@@ -1,19 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from "react";
 import Head from "next/head";
 const axios = require('axios');
-
 export default function Navbar() {
-  const [state, setstate] = useState('abhi');
-  const handleclick = () => {
-    axios.get('http://localhost:3000/api/hello')
-      .then(function (response) {
-        // handle success
-        if (response.status == 200) {
-          setstate(response.data.name);
-        }
-      })
-  }
+  const [products, setproduct] = useState();
+
   return (
     <>
       <Head>
@@ -41,12 +32,12 @@ export default function Navbar() {
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
               </li>
-
             </ul>
           </div>
         </nav>
-
       </div>
+
+
 
 
 
