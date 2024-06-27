@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.462.0",
+    "@coreui/coreui": "^5.0.2",
+    "@coreui/react": "^5.1.0",
     "@dnd-kit/core": "^6.0.5",
     "@dnd-kit/modifiers": "^6.0.0",
     "@dnd-kit/sortable": "^7.0.1",
@@ -24,6 +26,7 @@
     "autosize": "^5.0.1",
     "axios": "^1.1.2",
     "bootstrap": "^5.3.3",
+    "config": "^3.3.12",
     "draft-convert": "^2.1.13",
     "draft-js": "^0.11.2",
     "fs": "^0.0.1-security",
@@ -54,6 +57,7 @@
     "react-draft-editor-story": "^1.0.167",
     "react-google-recaptcha": "^2.1.0",
     "react-quill": "^2.0.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-select": "^5.7.4",
     "react-tag-autocomplete": "^6.3.0",
     "react-webcam": "^7.0.1",
@@ -66,6 +70,7 @@
     "socket.io": "^4.5.3",
     "socket.io-client": "^4.5.3",
     "stripe": "^12.17.0",
+    "swiper": "^11.1.4",
     "typeorm": "^0.3.17",
     "uuid": "^9.0.1"
   },
